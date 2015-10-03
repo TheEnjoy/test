@@ -9,16 +9,14 @@
 
 s=(input(" 12-znakov "))
 print(("8-znakov="),(s[:8]))
-s=(input(" 12-znakov "))
-print(('4stroci iz centra='),(s[4:-4]))
-s=int(input(" 12-znakov "))
-print(('4isla kratni 3='),(s%3))
+    s=(input(" 12-znakov "))
+     print(('4stroci iz centra='),(s[4:-4]))
+       s=int(input(" 12-znakov "))
+        print(('4isla kratni 3='),(s%3))
 
 r = ('Li874nux  874uy874azny Unix '
-
- '874tre tyt874vasha874 rek874llama '
-)
-r = r.replace('874','')
-print(r)
+ '874tre tyt874vasha874 rek874llama ')
+ r = r.replace('874','')
+   print(r)
 s = 'p2r3i0v4e3t'
-print(s[::2])
+ print(s[::2])
